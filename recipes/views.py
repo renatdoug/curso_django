@@ -4,6 +4,6 @@ from django.shortcuts import render
 
 
 def home(request):
-    return render(request, 'recipes/home.html', context={
-        'texto': 'Tentado aprender Django',
+    return render(request, 'recipes/pages/home.html', context={
+        'texto': 'tentado aprender Django',
     })
